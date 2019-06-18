@@ -30,7 +30,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Startup Name Generator'),
+        title: new Text('Startup Name Generators'),
         actions: <Widget>[
           new IconButton(icon: new Icon(Icons.list), onPressed: _pushSaved)
         ],
